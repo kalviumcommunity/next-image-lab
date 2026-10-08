@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.6 system-ui, sans-serif; color: #25334d; background: #f4f7fc; }
+main { max-width: 900px; margin: auto; padding: 24px; }
+h1, h2, h3 { color: #1f4e78; }
+section { margin: 24px 0; padding: 22px; border-radius: 14px; background: white; border: 1px solid #c7d4e5; }
+.comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media(max-width: 600px) { .comparison { grid-template-columns: 1fr; } }
